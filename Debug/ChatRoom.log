@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\micha\source\repos\chatroom\chatroom\gamemanager.h(80): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\micha\source\repos\chatroom\chatroom\gamemanager.h(82): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\micha\source\repos\chatroom\chatroom\gamemanager.h(84): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\micha\source\repos\chatroom\chatroom\gamemanager.h(86): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\micha\source\repos\chatroom\chatroom\gamemanager.h(88): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\micha\source\repos\chatroom\chatroom\gamemanager.h(143): warning C4018: '<': signed/unsigned mismatch
+c:\users\micha\source\repos\chatroom\chatroom\gamemanager.h(148): warning C4018: '<': signed/unsigned mismatch
+c:\users\micha\source\repos\chatroom\chatroom\gamemanager.h(194): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  ChatRoom.vcxproj -> C:\Users\micha\source\repos\ChatRoom\Debug\ChatRoom.exe

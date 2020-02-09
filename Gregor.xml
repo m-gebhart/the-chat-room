@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenes nextCharacter="Emily" altNextCharacter="Theodore">
+  <question id="1">
+    <lines>
+      <line>Hello, I Am Gregor</line>
+      <line>You Speak German?</line>
+    </lines>
+    <reaction id="Yes" nextScene="2">
+      <lines>
+        <line>Ah Sehr Gut</line>
+        <line>Endlich Mal Jemand</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>Goodbye</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="2">
+    <lines>
+      <line>Benutzen Sie Das Programm Hier Zum Ersten Mal</line>
+    </lines>
+    <reaction id="Yes" nextScene="3">
+      <lines>
+        <line>Ich Auch</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>Ich Verstehe</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="3">
+    <lines>
+      <line>Kommen Sie Aus Deutschland?</line>
+    </lines>
+    <reaction id="Yes" nextScene="4">
+      <lines>
+        <line>Sehr Gut</line>
+        <line>Ich Auch</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>Okay Das Ist Interessant</line>
+        <line>Ich Wuensche Ihnen Einen Schoenen Tag</line>
+        <line>Nichts Fuer Ungut</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="4">
+    <lines>
+      <line>Wohnen Sie In Einer Stadt?</line>
+    </lines>
+    <reaction id="Yes" nextScene="DISCONNECT">
+      <lines>
+        <line>Schoen</line>
+        <line>Ein Stdtmensch</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>Verstehe</line>
+        <line>Ein Landei</line>
+      </lines>
+    </reaction>
+  </question>
+</scenes>

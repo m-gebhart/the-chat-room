@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenes nextCharacter="Theodore" altNextCharacter="none">
+  <question id="1">
+    <lines>
+      <line>Hello</line>
+      <line>Im emily</line>
+      <line>My mama told me that emily is the most common name here in usa</line>
+      <line>But every emily is special in their own way</line>
+      <line>Do you know a emily</line>
+      <line>?</line>
+    </lines>
+    <reaction id="Yes" nextScene="2">
+      <lines>
+        <line>Cool</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="3">
+      <lines>
+        <line>Oh</line>
+        <line>Thats weird</line>
+        <line>Maybe you just dont live in usa</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="2">
+    <lines>
+      <line>I think your emily is also cool</line>
+      <line>She has the same name</line>
+      <line>Is your emily cool</line>
+      <line>?</line>
+    </lines>
+    <reaction id="Yes" nextScene="4">
+      <lines>
+        <line>Cool</line>
+        <line>I hope she knows that shes cool</line>
+        <line>If not you can tell her</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>Oh</line>
+        <line>Thats rude</line>
+        <line>You are rude</line>
+        <line>I bet shes cool</line>
+        <line>My mama told me that i should not talk to rude people</line>
+        <line>Goodbye</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="3">
+    <lines>
+      <line>But you have heard of my country usa</line>
+      <line>Right</line>
+      <line>?</line>
+    </lines>
+    <reaction id="Yes" nextScene="5">
+      <lines>
+        <line>Great</line>
+        <line>A lot of people say that its the greatest country of them all</line>
+        <line>But to be honest</line>
+        <line>I don't know what should be different than other countries</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>Oh</line>
+        <line>Well you know its really big</line>
+        <line>Oh no</line>
+        <line>My mama is coming</line>
+        <line>I need to say goodbye</line>
+        <line>Have a great day</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="4">
+    <lines>
+      <line>Are you a grown up already</line>
+      <line>?</line>
+    </lines>
+    <reaction id="Yes" nextScene="DISCONNECT">
+      <lines>
+        <line delay="1">Wow</line>
+        <line delay="1">Thats so cool</line>
+        <line delay="3">I also want to be a grown up now</line>
+        <line delay="2">Cant wait for that</line>
+        <line delay="3">Because then you can do everything and anything</line>
+        <line delay="2">This is gonna be awesome</line>
+        <line delay="2">Oh no...</line>
+        <line delay="1">My mama says the food is done</line>
+        <line delay="1">See you</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>Wow</line>
+        <line>Another kid</line>
+        <line>Being a kid sucks</line>
+        <line>Right</line>
+        <line>?</line>
+        <line>Wait</line>
+        <line>Mama says i need to go</line>
+        <line>See you</line>
+        <line>!</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="5">
+    <lines>
+      <line delay="3">Have you been to the usa already</line>
+      <line delay="0.5">?</line>
+    </lines>
+    <reaction id="Yes" nextScene="DISCONNECT">
+      <lines>
+        <line>Great</line>
+        <line>Did you like it?</line>
+        <line>?</line>
+        <line>Wait</line>
+        <line>My mama is coming</line>
+        <line>Dinner is ready</line>
+        <line>Need to say goodbye</line>
+        <line>Was cool</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>Oh</line>
+        <line>But you should definitely do one day</line>
+        <line>!</line>
+        <line>Sorry i need to go</line>
+        <line>Mama says dinner is ready</line>
+        <line>Goodbye</line>
+      </lines>
+    </reaction>
+  </question>
+</scenes>

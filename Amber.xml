@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenes nextCharacter="Emily" altNextCharacter="Gregor">
+  <question id="1">
+    <lines>
+      <line>hey, this is Amber</line>
+      <line>finally I'm not the dog for one day, haha</line>
+      <line>sooo about me and myself, I'm still going to high school and I fucking hate it xD</line>
+      <line>glad, when I'm gonna be finished with it in a couple of months</line>
+      <line>what about you? Do you also hate high school?</line>
+    </lines>
+    <reaction id="Yes" nextScene="2">
+      <lines>
+        <line>wow so we suffer from the same system</line>
+        <line>finally someone who can understand my pain</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="3">
+      <lines>
+        <line>one of those who like rules, huh?</line>
+        <line>well, I'm gonna be glad when I'm gone from that place</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="2">
+    <lines>
+      <line>what do you hate the most?</line>
+      <line>Yes for the people. No for the whole system.</line>
+    </lines>
+    <reaction id="Yes" nextScene="4">
+      <lines>
+        <line>the people, huh?</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="5">
+      <lines>
+        <line>alright, the system</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="3">
+    <lines>
+      <line>wait..</line>
+      <line>do you actually still go to high school?</line>
+    </lines>
+    <reaction id="Yes" nextScene="DISCONNECT">
+      <lines>
+        <line>okay I see</line>
+        <line>that day will come when you start hating the system</line>
+        <line>trust me</line>
+        <line>by then, I wish you a lot of luck</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="6">
+      <lines>
+        <line>wow okay</line>
+        <line>I didn't know xD</line>
+        <line>I thought we'd share the same age</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="4">
+    <lines>
+      <line>imagine being stuck with the most interesting, boring or rude people of same ages for years</line>
+      <line>well welcome to high school</line>
+      <line>tell me, is there at least someone you like?</line>
+    </lines>
+    <reaction id="Yes" nextScene="DISCONNECT">
+      <lines>
+        <line>awwww...</line>
+        <line>that's sooo cute</line>
+        <line>well, I'm someone who feels alone sometimes. there's not even one I want to think about</line>
+        <line>very tragic, I know</line>
+        <line>maybe that's a good thing and I just don't know about that yet, haha</line>
+        <line>sry, this ended up being a pure rant about my emotional school life</line>
+        <line>I think I should go, before I'm gonna get more into this :D</line>
+        <line>goodbye, cute one :p</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>welcome to the loser's club!</line>
+        <line>we might get along, it seems :D</line>
+        <line>sadly, I need to get going now, before I get attached to much to this chat</line>
+        <line>maybe we'll meet again, with you being the master, hah xD</line>
+        <line>and keep it up. Being alone isn't the end of everything</line>
+        <line>goodybe, loner. Have a nice one</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="5">
+    <lines>
+      <line>the people might not be that bad, if the system wouldn't fucking suck that much</line>
+      <line>do you think we need some change in this whole school bullshit?</line>
+    </lines>
+    <reaction id="Yes" nextScene="DISCONNECT">
+      <lines>
+        <line>yeah, that's right!</line>
+        <line>let's just hope that things will change!</line>
+        <line>or we can just forget about high school for the rest of our lives, but that's the boring way, haha</line>
+        <line>sadly, I need to to go, but we can start our little rebellion next time :p</line>
+        <line>see ya</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>no?</line>
+        <line>I mean, you could be someone who just doesn't care</line>
+        <line>people can suffer and you could just be glad that you can be out of this</line>
+        <line>anyway, that's strange, in my eyes</line>
+        <line>I should get going goodbye</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="6">
+    <lines>
+      <line>sooo another question:</line>
+      <line>do you miss high school?</line>
+    </lines>
+    <reaction id="Yes" nextScene="DISCONNECT">
+      <lines>
+        <line>mhhhh...</line>
+        <line>that wasn't quite the answer I expected tbh</line>
+        <line>for me, I just hope that there are be greater days to come</line>
+        <line>high school is not the world, it just cannot be</line>
+        <line>and I hope you can forget about high school, because that system deserves to be erased</line>
+        <line>you see, I get a bit angry when I'm just thinking about it</line>
+        <line>keep it up, whoever you are :D</line>
+        <line>I'm off, see you around</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>Good!</line>
+        <line>that's really good</line>
+        <line>this gives me hope that there's better stuff to come after high school</line>
+        <line>even though, your answer was reeaaaallly simple xD</line>
+        <line>anyway, I need to finish this session</line>
+        <line>see ya</line>
+      </lines>
+    </reaction>
+  </question>
+</scenes>

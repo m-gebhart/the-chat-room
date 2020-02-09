@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenes nextCharacter="none" altNextCharacter="none">
+  <question id="1">
+    <lines>
+      <line>This is Theodore.</line>
+      <line>And I want to ask you some questions.</line>
+      <line>And I'm not gonna react to those questions, I'll just leave them like that.</line>
+      <line></line>
+      <line>First one:</line>
+      <line>Do you like chocolate?</line>
+    </lines>
+    <reaction id="Yes" nextScene="2">
+      <lines>
+        <line>Thank you.</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="3">
+      <lines>
+        <line>Thank you.</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="2">
+    <lines>
+      <line>Second question:</line>
+      <line>Do you like rollercoasters?</line>
+    </lines>
+    <reaction id="Yes" nextScene="DISCONNECT">
+      <lines>
+        <line>Thank you.</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>Thank you.</line>
+      </lines>
+    </reaction>
+  </question>
+
+  <question id="3">
+    <lines>
+      <line>Second question:</line>
+      <line>Do you like animes?</line>
+    </lines>
+    <reaction id="Yes" nextScene="DISCONNECT">
+      <lines>
+        <line>Thank you.</line>
+      </lines>
+    </reaction>
+    <reaction id="No" nextScene="DISCONNECT">
+      <lines>
+        <line>Thank you.</line>
+      </lines>
+    </reaction>
+  </question>
+</scenes>
